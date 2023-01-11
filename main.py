@@ -1,7 +1,5 @@
 import tkinter
 import os
-import renderer
-
 # Data
 
 WINDOW_HEIGHT = 64*16
@@ -98,7 +96,7 @@ def renderScene(scene):
 
 #w.grid(row=0, column=0)
 renderScene(scene=Current_Scene)
-placedImg = tkinter.PhotoImage(file=IMAGES_CLOUD2)
+placedImg = tkinter.PhotoImage(file=IMAGES_CLOUD1)
 widget = tkinter.Label(root, image=placedImg)
 widget.grid(row=1, column=2)
 placedImg = tkinter.PhotoImage(file=IMAGES_CLOUD1)
